@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>我的技術筆記</title>
+    <script>
+      window.$docsify = {
+        name: "專案文件",
+        loadSidebar: true,
+        loadNavbar: true,
+        search: {
+          maxAge: 86400000,
+          paths: "auto",
+          placeholder: "搜尋",
+          noData: "找不到結果",
+          depth: 6,
+        },
+      };
+    </script>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"
+    />
+  </head>
+  <body>
+    <div id="app">Loading...</div>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  </body>
+</html>
